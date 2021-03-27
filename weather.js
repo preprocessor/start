@@ -9,7 +9,7 @@ function getWeather() {
  // "            https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}"
 
   xhr.open(
-    "GET", url
+    "GET", owm_url
   );
   xhr.onload = () => {
     if (xhr.readyState === 4) {
