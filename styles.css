@@ -29,7 +29,9 @@ body {
   font-size: 3.5rem;
   font-weight: 600;
   font-family: var(--fontFamily);
-  color: var(--containerBg);
+  color: var(--fg);
+  border-radius: var(--cornerRad);
+  background-color: var(--containerBg);
   margin-bottom: 5.5em;
 }
 
